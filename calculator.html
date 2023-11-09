@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <style>
+        .calculator {
+            width: 300px;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .button {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+        .row {
+            display: flex;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="row">
+            <div class="button">result</div>
+        </div>
+        <div class="row">
+            <div class="button">1</div>
+            <div class="button">2</div>
+            <div class="button">3</div>
+            <div class="button" style="background-color: black; color: white;">+</div>
+        </div>
+        <div class="row">
+            <div class="button">4</div>
+            <div class="button">5</div>
+            <div class="button">6</div>
+            <div class="button" style="background-color: black;color: white;">-</div>
+        </div>
+        <div class="row">
+            <div class="button">7</div>
+            <div class="button">8</div>
+            <div class="button">9</div>
+            <div class="button" style="background-color: black;color: white;">x</div>
+        </div>
+        <div class="row">
+            <div class="button" style="background-color: red;color: white;">C</div>
+            <div class="button">0</div>
+            <div class="button">=</div>
+            <div class="button" style="background-color: black;color: white;">/</div>
+        </div>
+    </div>
+</body>
+</html>
